@@ -2,7 +2,6 @@ type Project = {
   name: string
   description: string
   link: string
-  video: string
   id: string
 }
 
@@ -15,12 +14,6 @@ type WorkExperience = {
   id: string
 }
 
-type BlogPost = {
-  title: string
-  description: string
-  link: string
-  uid: string
-}
 
 type SocialLink = {
   label: string
@@ -29,97 +22,55 @@ type SocialLink = {
 
 export const PROJECTS: Project[] = [
   {
-    name: 'Motion Primitives Pro',
-    description:
-      'Advanced components and templates to craft beautiful websites.',
-    link: 'https://pro.motion-primitives.com/',
-    video:
-      'https://res.cloudinary.com/read-cv/video/upload/t_v_b/v1/1/profileItems/W2azTw5BVbMXfj7F53G92hMVIn32/newProfileItem/d898be8a-7037-4c71-af0c-8997239b050d.mp4?_a=DATAdtAAZAA0',
+    name: 'Thriftbooks.com E2E Capstone',
+    description:'End-to-end testing documentation showcasing an automation-first QA approach, including detailed test plans, coverage strategy, defect logs, and Page Object Model structure',
+    link: 'https://github.com/Jasminev71/ThriftBooks-testing/wiki',
     id: 'project1',
   },
   {
-    name: 'Motion Primitives',
-    description: 'UI kit to make beautiful, animated interfaces.',
-    link: 'https://motion-primitives.com/',
-    video:
-      'https://res.cloudinary.com/read-cv/video/upload/t_v_b/v1/1/profileItems/W2azTw5BVbMXfj7F53G92hMVIn32/XSfIvT7BUWbPRXhrbLed/ee6871c9-8400-49d2-8be9-e32675eabf7e.mp4?_a=DATAdtAAZAA0',
-    id: 'project2',
+    name: 'Client Management Service ',
+    description: 'Backend service built in Java demonstrating CRUD operations, layered architecture, input validation, and unit testing. Focused on clean service design, data integrity, and scalable business logic implementation.',
+    link: 'https://github.com/Jasminev71/Client-Management-Service/wiki',
+    id: 'project2'
   },
+   {
+    name: 'Weight Buddy',
+    description: 'Android mobile application built in Java that allows users to log and manage weight entries. Enhanced with input validation and aggregation logic to improve data integrity and algorithmic processing.',
+    link: 'https://github.com/Jasminev71/WeightBuddy/wiki/Algorithms-&-Data-Structures',
+    id: 'project3',
+  },
+   {
+    name: 'Weight Buddy- Database',
+    description: 'Refactored SQLite schema and queries to improve data validation, indexing, and reliability. Focused on strengthening database design, scalability, and data integrity within a mobile application environment.',
+    link: 'https://github.com/Jasminev71/WeightBuddy/wiki/Database-Enhancements',
+    id: 'project4',
+  }
 ]
 
 export const WORK_EXPERIENCE: WorkExperience[] = [
   {
-    company: 'Reglazed Studio',
-    title: 'CEO',
-    start: '2024',
+    company: 'GOLDpoint Systems',
+    title: 'QA Engineer',
+    start: '2026',
     end: 'Present',
-    link: 'https://ibelick.com',
+    link: 'https://www.goldpointsystems.com',
     id: 'work1',
-  },
-  {
-    company: 'Freelance',
-    title: 'Design Engineer',
-    start: '2022',
-    end: '2024',
-    link: 'https://ibelick.com',
-    id: 'work2',
-  },
-  {
-    company: 'Freelance',
-    title: 'Front-end Developer',
-    start: '2017',
-    end: 'Present',
-    link: 'https://ibelick.com',
-    id: 'work3',
   },
 ]
 
-export const BLOG_POSTS: BlogPost[] = [
-  {
-    title: 'Exploring the Intersection of Design, AI, and Design Engineering',
-    description: 'How AI is changing the way we design',
-    link: '/blog/exploring-the-intersection-of-design-ai-and-design-engineering',
-    uid: 'blog-1',
-  },
-  {
-    title: 'Why I left my job to start my own company',
-    description:
-      'A deep dive into my decision to leave my job and start my own company',
-    link: '/blog/exploring-the-intersection-of-design-ai-and-design-engineering',
-    uid: 'blog-2',
-  },
-  {
-    title: 'What I learned from my first year of freelancing',
-    description:
-      'A look back at my first year of freelancing and what I learned',
-    link: '/blog/exploring-the-intersection-of-design-ai-and-design-engineering',
-    uid: 'blog-3',
-  },
-  {
-    title: 'How to Export Metadata from MDX for Next.js SEO',
-    description: 'A guide on exporting metadata from MDX files to leverage Next.js SEO features.',
-    link: '/blog/example-mdx-metadata',
-    uid: 'blog-4',
-  },
-]
+
 
 export const SOCIAL_LINKS: SocialLink[] = [
   {
     label: 'Github',
-    link: 'https://github.com/ibelick',
+    link: 'https://github.com/Jasminev71',
   },
-  {
-    label: 'Twitter',
-    link: 'https://twitter.com/ibelick',
-  },
+ 
   {
     label: 'LinkedIn',
-    link: 'https://www.linkedin.com/in/ibelick',
+    link: 'https://www.linkedin.com/in/jasmine-villarreal-qa/',
   },
-  {
-    label: 'Instagram',
-    link: 'https://www.instagram.com/ibelick',
-  },
+ 
 ]
 
-export const EMAIL = 'your@email.com'
+export const EMAIL = 'jasminevillarreal71@gmail.com'

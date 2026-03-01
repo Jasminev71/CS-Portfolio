@@ -12,15 +12,15 @@ export const viewport: Viewport = {
 }
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://nim-fawn.vercel.app/'),
+  metadataBase: new URL('https://cs-portfolio-git-main-jasminev71s-projects.vercel.app/'),
   alternates: {
     canonical: '/'
   },
   title: {
-    default: 'Nim - Personal website template',
-    template: '%s | Nim'
+    default: 'Jasmine Villarreal - Portfolio',
+    template: '%s | CS/QA portfolio'
   },
-  description:  'Nim is a free and open-source personal website template built with Next.js 15, React 19 and Motion-Primitives.',
+  description:  'CS capstone project ',
 };
 
 const geist = Geist({
